@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview_forecast"
+        android:background="#f4f4f4"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="top|left|bottom|center_vertical|right"
+        android:layout_marginLeft="3dp"/>
+</FrameLayout>
